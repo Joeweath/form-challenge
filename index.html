@@ -14,7 +14,7 @@
     <header><img src="./assets/header.png" alt="" srcset=""></header>
     <div id="container">
         <div id="form-container">
-            <form action="" , id="customer-input">
+            <form action="#" , method="post" id="customer-input">
                 <h1>Contact Details</h1>
                 <div id="firstname">
                     <label for="first-name">First Name</label>
@@ -38,8 +38,24 @@
                 </div>
                 <div id="promo">
                     <input type="text" , maxlength="7" , placeholder="Promo Code" , required>
-
                 </div>
+                <select id="hear-about-us" name="hear-about-us">
+                    <option value="">How did you hear about us?</option>
+                    <option value="social-media">Social Media</option>
+                    <option value="friend">From a friend</option>
+                    <option value="email">Email</option>
+                    <option value="other">Other</option>
+                </select>
+                <label for="accept-terms">
+                    <input type="checkbox" id="accept-terms" name="accept-terms" required>
+                    I agree to the terms and conditions.
+                </label>
+                <p>
+                    <a href="#"
+                        onclick="alert('All cancellation requests must be received by March 1, 2022\nAll cancellation requests are subject to a $100 cancellation fee.\nNo one under the age of 16 will be allowed on the show floor')">View
+                        Terms &amp; Conditions</a>
+                </p>
+                <input type="submit" value="Submit" class="submit-button">
                 <button>Submit</button>
             </form>
         </div>
