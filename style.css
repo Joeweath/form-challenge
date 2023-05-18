@@ -13,6 +13,14 @@ body {
     height: 100%;
 }
 
+header {
+    align-self: flex-start;
+    background: url(./assets/header.png) no-repeat center center;
+    width: 100%;
+    height: 100vh
+    background-size: cover;
+}
+
 #form-container {
     display: flex;
     flex-direction: column;
@@ -25,6 +33,59 @@ body {
     border: 1px solid  whitesmoke;
     border-radius: 15px 15px;
     box-shadow: 10px 10px #d6d6f1;
+    
+}
+
+#submit-button {
+    align-self: flex-end;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-field {
+    width: 90%;
+    height: 30px;
+    margin-bottom: 15px;
+    background-color: #f0f0f5;
+    border: 2px solid lightgray;
+    border-radius: 5px 5px;
+
+}
+
+#promo {
+    margin-bottom: 10px;
+}
+
+#promo-code {
+    width: 60%
+}
+
+#apply-code {
+    height: 30px;
+    width: 28%;
+    border-radius: 5px 5px;
+    background-color: #ababc7;
+}
+
+#hear-about-us {
+    height: 30px;
+    border-radius: 5px 5px;
+    background-color: #ababc7;
+}
+
+#accept-term {
+    font-size: 14px;
+}
+
+#submit-button {
+    margin-top: 80px;
+    margin-left: 80%;
+}
+
+#terms {
+    text-align: end;
 }
 
 
