@@ -8,6 +8,14 @@ body {
     width: 100%;
 }
 
+.success-message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: none;
+  }
+
 
 
 
@@ -34,6 +42,13 @@ body {
     
 }
 
+#form-field {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
 #submit-button {
     align-self: flex-end;
 }
@@ -56,7 +71,7 @@ h1{
     margin-bottom: 10px;
 }
 
-#promo-code {
+#promoCode {
     width: 60%
 }
 
@@ -69,21 +84,28 @@ h1{
 
 }
 
-#hear-about-us {
+#howDidYouHear {
     height: 30px;
     border-radius: 5px 5px;
     background-color: #ababc7;
     color: white;
-
+    margin-bottom: 10px;
 }
 
-#accept-term {
-    font-size: 12px;
+#otherSpecify {
+    background-color: #f0f0f5;
+    border: 2px solid lightgray;
+    border-radius: 5px 5px;
+    height: 30px;
+}
+
+#terms-cont {
+    margin-top: 30px;
 }
 
 #submit-button {
-    margin-top: 80px;
     height: 30px;
+    margin-right: 50px;
     width: 28%;
     border-radius: 5px 5px;
     background-color: #ababc7;
@@ -91,9 +113,6 @@ h1{
 
 }
 
-#terms {
-    text-align: end;
-}
 
 .terms-overlay {
     position: fixed;
